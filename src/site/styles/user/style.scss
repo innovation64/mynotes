@@ -1,10 +1,15 @@
-.comment-widget-container {
+/* Adjust the width of the footer */
+footer {
+    max-width: 80%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the footer */
+}
+
+/* custom-styles.scss */
+#disqus_thread {
     max-width: 600px; /* Adjust the width as needed */
     margin: auto; /* Centers the widget */
     font-size: 0.9rem; /* Adjust font size */
-}
-
-/* You can also style the .content class if needed */
-.comment-widget-container .content {
-    /* Add any additional styles here */
+    /* Apply custom colors using CSS variables */
+    background-color: var(--graph-main);
+    color: var(--graph-muted);
 }
