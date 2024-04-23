@@ -3698,6 +3698,10 @@ body {
   .footer-link {
     margin: 4px 0;
   }
+  .footer-comments {
+    max-width: 800px; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the comments section */
+}
   .components-container .menu {
     position: relative;
     display: inline-block;
